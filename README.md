@@ -1,0 +1,26 @@
+# STP-Parti-Bitwuzla at SMT-COMP 2025
+
+We intend to participate in the forthcoming SMT-COMP 2025 by submitting **STP-Parti-Bitwuzla** for **the Parallel Track** and **the Cloud Track** categories.
+
+**STP-Parti-Bitwuzla** is a **portfolio** tool based on STP and Bitwuzla, and intend for **QF_BV**. The authors of **STP-Parti-Bitwuzla** are **Mengyu Zhao, Jinkun Lin, and Shaowei Cai**.
+
+The system description is named `STP_Parti_Bitwuzla_at_SMT_COMP_2025.pdf`.
+
+As per the submission rule, we are providing the pseudo-random 32-bit unsigned number **998244353**.
+
+Zenodo DOI: [TBD]
+
+## Variable-level Partitioning for Distributed SMT Solving
+
+STP-Parti-Bitwuzla is the practical implementations of our innovative concept of **Var**iable-level **Parti**tioning, which is applied to the Bit-Vectors theory. This technique is introduced for the first time in our recently published paper at CAV 2024, titled *Distributed SMT Solving Based on Dynamic Variable-level Partitioning*. 
+
+Our proposed variable-level partitioning permits robust, comprehensive partitioning. Regardless of the Boolean structure of any given instance, our partitioning algorithm can keep partitioning to the last moment of the solving process.
+
+## How to Build and Test
+
+Download solver binary files in Zenodo.
+
+Test in the instance:
+```bash
+python3 solver/run_BVParti.py path_to_test_case.smt2
+```
