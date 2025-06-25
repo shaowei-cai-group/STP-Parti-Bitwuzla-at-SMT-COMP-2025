@@ -2,13 +2,13 @@
 
 We intend to participate in the forthcoming SMT-COMP 2025 by submitting **STP-Parti-Bitwuzla** for **the Parallel Track** and **the Cloud Track** categories.
 
-**STP-Parti-Bitwuzla** is a **portfolio** tool based on STP and Bitwuzla, and intend for **QF_BV**. The authors of **STP-Parti-Bitwuzla** are **Mengyu Zhao, Zhenghang Xu, Jinkun Lin, and Shaowei Cai**.
+**STP-Parti-Bitwuzla** is a **wrapper** tool based on STP and Bitwuzla, and intend for **QF_BV**. The authors of **STP-Parti-Bitwuzla** are **Mengyu Zhao, Zhenghang Xu, Jinkun Lin, and Shaowei Cai**.
 
 The system description is named `STP_Parti_Bitwuzla_at_SMT_COMP_2025.pdf`.
 
 As per the submission rule, we are providing the pseudo-random 32-bit unsigned number **998244353**.
 
-Zenodo DOI: [TBD]
+Zenodo DOI: 10.5281/zenodo.15640499
 
 ## Variable-level Partitioning for Distributed SMT Solving
 
