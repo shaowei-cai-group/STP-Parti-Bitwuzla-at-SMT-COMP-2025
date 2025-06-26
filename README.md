@@ -28,5 +28,5 @@ Download solver binary files in Zenodo.
 
 Test in the instance:
 ```bash
-python3 solver/run_BVParti.py path_to_test_case.smt2
+python3 solver/run_BVParti.py test-instances/bv-unsat-3.05.smt2
 ```
