@@ -8,7 +8,7 @@ The system description is named `STP_Parti_Bitwuzla_at_SMT_COMP_2025.pdf`.
 
 As per the submission rule, we are providing the pseudo-random 32-bit unsigned number **998244353**.
 
-Zenodo DOI: 10.5281/zenodo.15640499
+Zenodo DOI: 10.5281/zenodo.15640498
 
 ## Variable-level Partitioning for Distributed SMT Solving
 
@@ -28,5 +28,5 @@ Download solver binary files in Zenodo.
 
 Test in the instance:
 ```bash
-python3 solver/run_BVParti.py test-instances/bv-unsat-3.05.smt2
+./STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/run_BVParti.py ./STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/test-instances/bv-unsat-3.05.smt2 64
 ```
