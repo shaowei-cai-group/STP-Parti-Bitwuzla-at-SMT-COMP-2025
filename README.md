@@ -28,5 +28,5 @@ Download solver binary files in Zenodo.
 
 Test in the instance:
 ```bash
-./STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/run_BVParti.py ./STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/test-instances/bv-unsat-3.05.smt2 64
+./STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/run_BVParti.py 64 ./STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/test-instances/bv-unsat-3.05.smt2
 ```
